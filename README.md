@@ -132,7 +132,7 @@ npm run dev
 
 This starts:
 - **Backend** on `http://localhost:5000`
-- **Frontend** on `http://localhost:5173`
+- **Frontend** on `http://localhost:5174`
 
 ## Access the Application
 

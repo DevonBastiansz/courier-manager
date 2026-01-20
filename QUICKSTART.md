@@ -26,12 +26,12 @@ npm run dev
 
 This starts:
 - **Backend** on `http://localhost:5000`
-- **Frontend** on `http://localhost:5173`
+- **Frontend** on `http://localhost:5174`
 
 ## Access the Application
 
 Once running, open your browser:
-- **Frontend (to test the UI)**: http://localhost:5173
+- **Frontend (to test the UI)**: http://localhost:5174
 - **API**: http://localhost:5000/api
 
 ## Routes
