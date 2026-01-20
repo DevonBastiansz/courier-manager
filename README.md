@@ -137,7 +137,7 @@ This starts:
 ## Access the Application
 
 Once running, open your browser:
-- **Frontend (to test the UI)**: http://localhost:5173
+- **Frontend (to test the UI)**: http://localhost:5174
 - **API**: http://localhost:5000/api
 
 ## Routes
