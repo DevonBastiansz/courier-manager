@@ -2,7 +2,7 @@
 
 A full-stack courier service application built with the MERN stack (MongoDB, Express, React, Node.js) and TypeScript. This application enables users to create and track shipments, while administrators can manage all shipments and update their status.
 
-#### Please scroll down to see instructions to run the application or go to QUICKSTART.md.
+### Please scroll down to see instructions to run the application or go to QUICKSTART.md.
 
 ## Features
 
