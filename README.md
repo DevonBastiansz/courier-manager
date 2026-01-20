@@ -2,6 +2,8 @@
 
 A full-stack courier service application built with the MERN stack (MongoDB, Express, React, Node.js) and TypeScript. This application enables users to create and track shipments, while administrators can manage all shipments and update their status.
 
+#### Please scroll down to see instructions to run the application or go to QUICKSTART.md.
+
 ## Features
 
 ### User Features
@@ -103,3 +105,54 @@ Bconic Project/
 ├── README.md                         # This file
 └── UserStories.md                    # Next iteration features
 ```
+
+## INSTRUCTIONS TO RUN THE APPLICATION
+
+### 1. Install Dependencies
+From the project root directory, run:
+```bash
+npm install
+```
+
+This installs dependencies for both backend and frontend using npm workspaces.
+
+### 2. Start MongoDB
+Make sure MongoDB is running locally on port 27017.
+
+**Note**: Environment files (`.env`) are optional for local development. The app uses defaults (MongoDB on localhost:27017, backend on port 5000).
+
+## Running the Application
+
+### From the project root directory:
+
+**Run both backend and frontend together:**
+```bash
+npm run dev
+```
+
+This starts:
+- **Backend** on `http://localhost:5000`
+- **Frontend** on `http://localhost:5173`
+
+## Access the Application
+
+Once running, open your browser:
+- **Frontend (to test the UI)**: http://localhost:5173
+- **API**: http://localhost:5000/api
+
+## Routes
+
+### Public
+- `/login` - User login
+- `/register` - Create account
+- `/track` - Track shipment (no login required)
+
+### Authenticated
+- `/dashboard` - Your shipments (clients)
+- `/admin` - All shipments (admins only)
+
+## Testing the Application
+
+Simply register new accounts at `/register`:
+- Client accounts are created by default
+- To test admin features, you can create an admin account during registration

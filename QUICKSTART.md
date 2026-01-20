@@ -1,6 +1,6 @@
 # Courier Service App - Guide
 
-## One-Time Setup
+## INSTRUCTIONS
 
 ### 1. Install Dependencies
 From the project root directory, run:
